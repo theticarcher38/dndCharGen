@@ -606,6 +606,14 @@
 
         }
 
-        $('#race-text').append("<p>" + myRace + "</p>");
+        switch (myRace) {
+          case "Human":
+            $('#race-text').append("<p>" + myHumanSubrace + "</p>");
+            break;
+
+          default:
+            $('#race-text').append("<p>" + myRace + "</p>");
+            break;
+        }
 
     })
