@@ -325,58 +325,65 @@
                         switch (myHumanSubrace) {
                             case "Calishite":
                                 var humanMaleNames = ["Aseir", "Bardied", "Haseid", "Kehmed", "Mehmen", "Sudeiman", "Zasheir"];
-                                var humanSurnames = ["", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+                                var humanSurnames = ["Basha", "Dumein", "Jassan", "Khalid", "Mostana", "Pasha", "Rein"]
                                 var myHumanMaleName = humanMaleNames[Math.floor(Math.random() * humanMaleNames.length)];
-                                $('#name-text').append("<p><strong>" + myHumanMaleName + "</strong></p>");
+                                var myHumanSurname = humanSurnames[Math.floor(Math.random() * humanSurnames.length)];
+                                $('#name-text').append("<p><strong>" + myHumanMaleName + " " + myHumanSurname + "</strong></p>");
                                 break;
                             case "Chondathan":
                                 var humanMaleNames = ["Darvin", "Dorn", "Evendur", "Gorstag", "Grim", "Helm", "Malark", "Morn", "Randal", "Stedd"];
-                                var humanSurnames = ["", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+                                var humanSurnames = ["Amblecrown", "Buckman", "Dundragon", "Evenwood", "Greycastle", "Tallstag"];
                                 var myHumanMaleName = humanMaleNames[Math.floor(Math.random() * humanMaleNames.length)];
-                                $('#name-text').append("<p><strong>" + myHumanMaleName + "</strong></p>");
+                                var myHumanSurname = humanSurnames[Math.floor(Math.random() * humanSurnames.length)];
+                                $('#name-text').append("<p><strong>" + myHumanMaleName + " " + myHumanSurname + "</strong></p>");
                                 break;
                             case "Damaran":
                                 var humanMaleNames = ["Bor", "Fodel", "Glar", "Grigor", "Igan", "Ivor", "Kosef", "Mival", "Orel", "Pavel", "Sergor"];
-                                var humanSurnames = ["", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+                                var humanSurnames = ["Bersk", "Chernin", "Dotsk", "Kulenov", "Marsk", "Nemetsk", "Shemov", "Starag"];
                                 var myHumanMaleName = humanMaleNames[Math.floor(Math.random() * humanMaleNames.length)];
-                                $('#name-text').append("<p><strong>" + myHumanMaleName + "</strong></p>");
+                                var myHumanSurname = humanSurnames[Math.floor(Math.random() * humanSurnames.length)];
+                                $('#name-text').append("<p><strong>" + myHumanMaleName + " " + myHumanSurname + "</strong></p>");
                                 break;
                             case "Illuskan":
                                 var humanMaleNames = ["Ander", "Blath", "Bran", "Frath", "Geth", "Lander", "Luth", "Malcer", "Stor", "Taman", "Urth"];
-                                var humanSurnames = ["", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+                                var humanSurnames = ["", "", "", "", "", "", "", "", "", "", "", "", "", ""];
                                 var myHumanMaleName = humanMaleNames[Math.floor(Math.random() * humanMaleNames.length)];
-                                $('#name-text').append("<p><strong>" + myHumanMaleName + "</strong></p>");
+                                var myHumanSurname = humanSurnames[Math.floor(Math.random() * humanSurnames.length)];
+                                $('#name-text').append("<p><strong>" + myHumanMaleName + " " + myHumanSurname + "</strong></p>");
                                 break;
                             case "Mulan":
                                 var humanMaleNames = ["Aoth", "Bareris", "Ehput-Ki", "Kethoth", "Mumed", "Ramas", "So-Kehur", "Thazar-De", "Urhur"];
-                                var humanSurnames = ["", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+                                var humanSurnames = ["", "", "", "", "", "", "", "", "", "", "", "", "", ""];
                                 var myHumanMaleName = humanMaleNames[Math.floor(Math.random() * humanMaleNames.length)];
-                                $('#name-text').append("<p><strong>" + myHumanMaleName + "</strong></p>");
+                                var myHumanSurname = humanSurnames[Math.floor(Math.random() * humanSurnames.length)];
+                                $('#name-text').append("<p><strong>" + myHumanMaleName + " " + myHumanSurname + "</strong></p>");
                                 break;
                             case "Rashemi":
                                 var humanMaleNames = ["Borivik", "Faurgar", "Jandar", "Kanithar", "Madislak", "Ralmevik", "Shaumar", "Vladislak"];
-                                var humanSurnames = ["", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+                                var humanSurnames = ["", "", "", "", "", "", "", "", "", "", "", "", "", ""];
                                 var myHumanMaleName = humanMaleNames[Math.floor(Math.random() * humanMaleNames.length)];
-                                $('#name-text').append("<p><strong>" + myHumanMaleName + "</strong></p>");
+                                var myHumanSurname = humanSurnames[Math.floor(Math.random() * humanSurnames.length)];
+                                $('#name-text').append("<p><strong>" + myHumanMaleName + " " + myHumanSurname + "</strong></p>");
                                 break;
                             case "Shou":
                                 var humanMaleNames = ["An", "Chen", "Chi", "Fai", "Jiang", "Jun", "Lian", "long", "Meng", "On", "Shan", "Shui", "Wen"];
-                                var humanSurnames = ["", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+                                var humanSurnames = ["", "", "", "", "", "", "", "", "", "", "", "", "", ""];
                                 var myHumanMaleName = humanMaleNames[Math.floor(Math.random() * humanMaleNames.length)];
-                                $('#name-text').append("<p><strong>" + myHumanMaleName + "</strong></p>");
-                                break;
+                                var myHumanSurname = humanSurnames[Math.floor(Math.random() * humanSurnames.length)];
+                                $('#name-text').append("<p><strong>" + myHumanMaleName + " " + myHumanSurname + "</strong></p>");                                break;
                             case "Tethyrian":
                                 var humanMaleNames = ["Darvin", "Dorn", "Evendur", "Gorstag", "Grim", "Helm", "Malark", "Morn", "Randal", "Stedd"];
-                                var humanSurnames = ["", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+                                var humanSurnames = ["", "", "", "", "", "", "", "", "", "", "", "", "", ""];
                                 var myHumanMaleName = humanMaleNames[Math.floor(Math.random() * humanMaleNames.length)];
-                                $('#name-text').append("<p><strong>" + myHumanMaleName + "</strong></p>");
+                                var myHumanSurname = humanSurnames[Math.floor(Math.random() * humanSurnames.length)];
+                                $('#name-text').append("<p><strong>" + myHumanMaleName + " " + myHumanSurname + "</strong></p>");
                                 break;
                             case "Turami":
                                 var humanMaleNames = ["Anton", "Diero", "Marcon", "Pieron", "Rimardo", "Romero", "Salazar", "Umbero"];
-                                var humanSurnames = ["", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+                                var humanSurnames = ["", "", "", "", "", "", "", "", "", "", "", "", "", ""];
                                 var myHumanMaleName = humanMaleNames[Math.floor(Math.random() * humanMaleNames.length)];
-                                $('#name-text').append("<p><strong>" + myHumanMaleName + "</strong></p>");
-                        }
+                                var myHumanSurname = humanSurnames[Math.floor(Math.random() * humanSurnames.length)];
+                                $('#name-text').append("<p><strong>" + myHumanMaleName + " " + myHumanSurname + "</strong></p>");                        }
                         break;
                     case "Female":
                             switch (myHumanSubrace) {
