@@ -1,0 +1,7 @@
+function maleHalfElf() {
+
+}
+
+function femaleHalfElf() {
+
+}

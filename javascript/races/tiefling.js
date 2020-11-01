@@ -1,0 +1,7 @@
+function maleTiefling() {
+
+}
+
+function femaleTiefling() {
+
+}

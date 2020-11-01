@@ -1,14 +1,3 @@
-    /*
-    [0] - Dwarf
-    [1] - Elf
-    [2] - Halfling
-    [3] - Human
-    [4] - Dragonborn
-    [5] - Gnome
-    [6] - Half-Elf
-    [7] - Half-Orc
-    [8] - Tiefling
-    */
     var race = ["Hill Dwarf", "Mountain Dwarf", "High Elf", "Drow", "Wood Elf", "Lightfoot Halfling",
      "Stout Halfling", "Human", "Dragonborn", "Gnome", "Half-Elf", "Half-Orc", "Tiefling"];
     var myRace = race[Math.floor(Math.random() * race.length)];
@@ -102,33 +91,48 @@
                 humanStats();
                 break;
             case "Dragonborn":
-                switch (myGender) {
-
-                }
+            switch (myGender) {
+                case "Male":
+                    maleDragonborn();
+                case "Female":
+                    femaleDragonborn();
+            }
                 dragonbornStats();
                 break;
             case "Gnome":
-                switch (myGender) {
-
-                }
+            switch (myGender) {
+                case "Male":
+                    maleGnome();
+                case "Female":
+                    femaleGnome();
+            }
                 gnomeStats();
                 break;
             case "Half-Elf":
-                switch (myGender) {
-
-                }
+            switch (myGender) {
+                case "Male":
+                    maleHalfElf();
+                case "Female":
+                    femaleHalfElf();
+            }
                 halfElfStats();
                 break;
             case "Half-Orc":
-                switch (myGender) {
-
-                }
+            switch (myGender) {
+                case "Male":
+                    maleHalfOrc();
+                case "Female":
+                    femaleHalfOrc();
+            }
                 halfOrcStats();
                 break;
             case "Tiefling":
-                switch (myGender) {
-
-                }
+            switch (myGender) {
+                case "Male":
+                    maleTiefling();
+                case "Female":
+                    femaleTiefling();
+            }
                 tieflingStats();
                 break;
 

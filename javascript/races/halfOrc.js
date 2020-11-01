@@ -1,0 +1,7 @@
+function maleHalfOrc() {
+
+}
+
+function femaleHalfOrc() {
+
+}
