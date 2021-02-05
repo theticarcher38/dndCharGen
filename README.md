@@ -4,7 +4,9 @@ A simple character generator utilizing the Javascript JQuery Library.
 * I learned the basics of Javascript through this project
 * I learned how to utilize JQuery
 
-To view the application go to https://theticarcher38.github.io/dndCharGen/
+To view the application go to the [Dungeons and Dragons Character Generator][1]
 
 |This is some text | :x:  | :white_check_mark:  |
 |------------------|------|---------------------|
+
+[1]: <https://theticarcher38.github.io/dndCharGen/> "Dungeons and Dragons Character Gen"
