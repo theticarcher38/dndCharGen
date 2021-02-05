@@ -6,6 +6,5 @@ A simple character generator utilizing the Javascript JQuery Library.
 
 To view the application go to https://theticarcher38.github.io/dndCharGen/
 
-|------------------|------|
 |This is some text | :x:  |
 |------------------|------|
