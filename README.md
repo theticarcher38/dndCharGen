@@ -5,3 +5,7 @@ A simple character generator utilizing the Javascript JQuery Library.
 * I learned how to utilize JQuery
 
 To view the application go to https://theticarcher38.github.io/dndCharGen/
+
+|------------------|------|
+|This is some text | :x:  |
+|------------------|------|
