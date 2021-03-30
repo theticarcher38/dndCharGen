@@ -6,7 +6,7 @@ A simple character generator utilizing the Javascript JQuery Library.
 
 To view the application go to the [Dungeons and Dragons Character Generator][1]
 
-|This is some text | :x:  | :white_check_mark:  |
-|------------------|------|---------------------|
+|This is some text |Supported|
+|                  |         |
 
 [1]: <https://theticarcher38.github.io/dndCharGen/> "Dungeons and Dragons Character Gen"
