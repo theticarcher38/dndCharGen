@@ -9,7 +9,8 @@ function maleDwarf() {
 }
 
 function femaleDwarf() {
-  var femaleDwarfName = ["Amber", "Artin", "Audhild", "Bardryn", "Dagnal", "Diesa", "Eldeth", "Falkrunn", "Finellen", "Gunnloda", "Gurdis", "Helja", "Hlin", "Kathra", "Kristryd", "Ilde", "Liftrasa", "Mardred", "Riswynn", "Sannl", "Torbera", "Torgga", "Vistra"];
+  var femaleDwarfName = [
+    "Amber", "Artin", "Audhild", "Bardryn", "Dagnal", "Diesa", "Eldeth", "Falkrunn", "Finellen", "Gunnloda", "Gurdis", "Helja", "Hlin", "Kathra", "Kristryd", "Ilde", "Liftrasa", "Mardred", "Riswynn", "Sannl", "Torbera", "Torgga", "Vistra"];
   var myFemaleDwarfName = femaleDwarfName[Math.floor(Math.random() * femaleDwarfName.length)];
   var dwarfSurames = ["Balderk", "Battlehammer", "Brawnanvil", "Dankil", "Fireforge", "Frostbeard", "Gorunn", "Holderhek", "Ironfist", "Loderr", "Lutgher", "Rumnaheim", "Strakeln", "Torunn", "Ungart"];
   var myDwarfSurname = dwarfSurames[Math.floor(Math.random() * dwarfSurames.length)];
