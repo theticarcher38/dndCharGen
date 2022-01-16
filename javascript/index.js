@@ -19,7 +19,7 @@
                     case "Female":
                         femaleDwarf();
                 }
-                hillDwarfStats();
+                stats();
                 break;
             case "Mountain Dwarf":
                 switch (myGender) {
@@ -29,7 +29,7 @@
                     case "Female":
                         femaleDwarf();
                 }
-                mountainDwarfStats();
+                stats();
                 break;
             case "High Elf":
                 switch (myGender) {
@@ -39,7 +39,7 @@
                     case "Female":
                         femaleElf();
                 }
-                highElfStats();
+                stats();
                 break;
             case "Drow":
                 switch (myGender) {
@@ -49,7 +49,7 @@
                     case "Female":
                         femaleElf();
                 }
-                drowStats();
+                stats();
                 break;
             case "Wood Elf":
                 switch (myGender) {
@@ -59,7 +59,7 @@
                     case "Female":
                         femaleElf();
                 }
-                woodElfStats();
+                stats();
                 break;
             case "Lightfoot Halfling":
                 switch (myGender) {
@@ -69,7 +69,7 @@
                     case "Female":
                         femaleElf();
                 }
-                lightfootHalflingStats();
+                stats();
                 break;
             case "Stout Halfling":
                 switch (myGender) {
@@ -79,7 +79,7 @@
                     case "Female":
                         femaleHalfling();
                 }
-                stoutHalflingStats();
+                stats();
                 break;
             case "Human":
                 switch (myGender) {
@@ -88,7 +88,7 @@
                     case "Female":
                         femaleHuman();
                 }
-                humanStats();
+                stats();
                 break;
             case "Dragonborn":
             switch (myGender) {
@@ -97,7 +97,7 @@
                 case "Female":
                     femaleDragonborn();
             }
-                dragonbornStats();
+                stats();
                 break;
             case "Gnome":
             switch (myGender) {
@@ -106,7 +106,7 @@
                 case "Female":
                     femaleGnome();
             }
-                gnomeStats();
+                stats();
                 break;
             case "Half-Elf":
             switch (myGender) {
@@ -115,7 +115,7 @@
                 case "Female":
                     femaleHalfElf();
             }
-                halfElfStats();
+                stats();
                 break;
             case "Half-Orc":
             switch (myGender) {
@@ -124,7 +124,7 @@
                 case "Female":
                     femaleHalfOrc();
             }
-                halfOrcStats();
+                stats();
                 break;
             case "Tiefling":
             switch (myGender) {
@@ -133,7 +133,7 @@
                 case "Female":
                     femaleTiefling();
             }
-                tieflingStats();
+                stats();
                 break;
 
         }
